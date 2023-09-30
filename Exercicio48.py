@@ -15,4 +15,4 @@ elif Operacao == '/':
     Resultado = Num1 / Num2
 else:
     print('Você escolheu opção inválida. ')
-print('O resultado da operação escolhida é {}'.format(Resultado))    
+print('O resultado de {} {} {} = {}'.format(Num1, Operacao, Num2, Resultado))    
